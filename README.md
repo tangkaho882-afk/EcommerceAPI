@@ -82,6 +82,7 @@ Ecommerce API is a backend project for an e-commerce platform built with ASP.NET
 	Configure the database connection string if necessary.
 4. JWT key setting
 	```powershell
+	cd EcommerceAPI
    	dotnet user-secrets set "Jwt:Key" "<your-secret-key>"
 	```
 5. Create or update the database
