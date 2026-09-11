@@ -70,7 +70,7 @@ Ecommerce API is a backend project for an e-commerce platform built with ASP.NET
    cd EcommerceAPI-Test
    ```
 
-3. Restore dependencies
+2. Restore dependencies
 
 	Restore NuGet packages:
 	```powershell
@@ -82,19 +82,19 @@ Ecommerce API is a backend project for an e-commerce platform built with ASP.NET
 	dotnet tool restore
 	```
 
-4. Configure the database connection string
+3. Configure the database connection string
 	Find the DefaultConnection below the ConnectionStrings in the appsettings.json
 	Configure the database connection string if necessary.
-5. JWT key setting
+4. JWT key setting
 	```powershell
 	cd EcommerceAPI
    	dotnet user-secrets set "Jwt:Key" "<your-secret-key>"
 	```
-6. Create or update the database
+5. Create or update the database
 	```powershell
 	dotnet ef database update
 	```
-7. Run
+6. Run
 	```powershell
 	dotnet run
 	```
