@@ -8,11 +8,11 @@ Ecommerce API is a backend project for an e-commerce platform built with ASP.NET
 ### Authentication
 - User registration
 - User login
-- User Role-Based authorization
+- Role-based authorization
 
 ### Product Management
 - Product creation
-- Product information editing
+- Product information updates
 - Product listing and viewing
 - Product activation and deactivation
 
@@ -26,7 +26,7 @@ Ecommerce API is a backend project for an e-commerce platform built with ASP.NET
 - Product existence and active status validation
 - Product stock validation
 - Concurrency conflict handling
-- Transaction rollback when checkout failure
+- Transaction rollback on checkout failure
 
 ### Order Management
 - Order status tracking 
@@ -63,7 +63,7 @@ Ecommerce API is a backend project for an e-commerce platform built with ASP.NET
 
 
 ### Setup
-1. Clone the Project from GitHub and navigate to the repository
+1. Clone the project from GitHub and navigate to the repository
 
    ```powershell
    git clone https://github.com/tangkaho882-afk/EcommerceAPI.git
@@ -83,7 +83,7 @@ Ecommerce API is a backend project for an e-commerce platform built with ASP.NET
 	```
 
 3. Configure the database connection string if necessary.
-	The DefaultConnection is under the ConnectionStrings in the appsettings.json
+	The DefaultConnection is located under the ConnectionStrings in appsettings.json
 4. Set the JWT secret key
 	```powershell
 	cd EcommerceAPI
