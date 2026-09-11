@@ -79,7 +79,7 @@ Ecommerce API is a backend project for an e-commerce platform built with ASP.NET
 
 3. Configure the database connection string
 	Find the DefaultConnection below the ConnectionStrings in the appsettings.json
-	Set your database connection string
+	Configure the database connection string if necessary.
 4. JWT key setting
 	```powershell
    	dotnet user-secrets set "Jwt:Key" "<your-secret-key>"
