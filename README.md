@@ -63,9 +63,14 @@ Ecommerce API is a backend project for an e-commerce platform built with ASP.NET
 
 
 ### Setup
-1. Clone Project from GitHub
+1. Clone Project from GitHub and get into it
 
-2. Restore dependencies
+   ```powershell
+   git clone https://github.com/tangkaho882-afk/EcommerceAPI.git EcommerceAPI-Test
+   cd EcommerceAPI-Test
+   ```
+
+3. Restore dependencies
 
 	Restore NuGet packages:
 	```powershell
@@ -77,19 +82,19 @@ Ecommerce API is a backend project for an e-commerce platform built with ASP.NET
 	dotnet tool restore
 	```
 
-3. Configure the database connection string
+4. Configure the database connection string
 	Find the DefaultConnection below the ConnectionStrings in the appsettings.json
 	Configure the database connection string if necessary.
-4. JWT key setting
+5. JWT key setting
 	```powershell
 	cd EcommerceAPI
    	dotnet user-secrets set "Jwt:Key" "<your-secret-key>"
 	```
-5. Create or update the database
+6. Create or update the database
 	```powershell
 	dotnet ef database update
 	```
-6. Run
+7. Run
 	```powershell
 	dotnet run
 	```
